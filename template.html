@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>DV Lottery Try</title>
+  </head>
+  <body>
+    <form id="dvlottery-form">
+      <div>
+        <label>Select country</label>
+        <select name="country">
+          <option selected value="russia">Russia</option>
+          <option value="ukraine">Ukraine</option>
+          <option value="belarus">Belarus</option>
+          <option value="uzbekistan">Uzbekistan</option>
+         </select>
+      </div>
+      <div>
+        <label>Number of persons</label>
+        <input type="number" name="persons" value="1" min="1" max="100" />
+      </div>
+      <div>
+        <button type="submit">Try</button>
+      </div>
+    </form>
+
+    <div id="dvlottery-result"></div>
+  </body>
+</html>
